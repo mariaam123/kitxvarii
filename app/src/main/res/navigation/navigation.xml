@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/kitxvebiFragment">
+
+    <fragment
+        android:id="@+id/kitxvebiFragment"
+        android:name="fragments.KitxvebiFragment"
+        android:label="KitxvebiFragment"
+        tools:layout="@layout/kitxvebi_fragment">
+        <argument
+            android:name="kitxvebi"
+            app:argType="string" />
+        <argument
+            android:name="pasuxebi"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_kitxvebiFragment_to_pasuxebiFragment2"
+            app:destination="@id/pasuxebiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pasuxebiFragment"
+        android:name="fragments.PasuxebiFragment"
+        android:label="PasuxebiFragment"
+        tools:layout="@layout/pasuxebi_fragment">
+        <argument
+            android:name="saxeli"
+            app:argType="string" />
+        <argument
+            android:name="gvari"
+            app:argType="string" />
+        <argument
+            android:name="dabadebistarigi"
+            app:argType="string" />
+        <argument
+            android:name="sakontaqtoinformacia"
+            app:argType="string" />
+        <argument
+            android:name="misamarti"
+            app:argType="string" />
+    </fragment>
+</navigation>

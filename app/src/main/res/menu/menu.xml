@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/kitxvebiFragment"
+        android:title="kitxvebi"
+        android:icon="@drawable/ic_kitxvebi"/>
+
+    <item android:id="@+id/pasuxebiFragment"
+        android:title="pasuxebi"
+        android:icon="@drawable/ic_pasuxebi"/>
+
+</menu>

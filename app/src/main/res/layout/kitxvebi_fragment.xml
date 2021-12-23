@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="კითხვარი"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="113dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="192dp"
+        android:text="გვარი"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="113dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="124dp"
+        android:text="სახელი"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/gvari"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/saxeli"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dabadebistarigi"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="404dp"
+        android:ems="10"
+        android:hint="დაბადების თარიღი"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/sakontaqtoinformacia"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:hint="საკონტაქტო ინფორმაცია"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/sacxovrebeli"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="საცხოვრებელი ადგილი"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dabadebistarigi" />
+
+    <Button
+        android:id="@+id/shenaxva"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="104dp"
+        android:text="შენახვა"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
